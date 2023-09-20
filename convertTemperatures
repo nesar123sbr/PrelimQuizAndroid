@@ -1,0 +1,18 @@
+fun main() {
+    var Celcius = 70.0
+    println(Fahrenheit(Celcius))
+    println(Kelvin(Celcius))
+    
+    
+}
+fun Fahrenheit(Celcius: Double): Double {
+    
+    
+    val temperature = (Celcius *(9/5))+ 32
+    return temperature
+    
+}
+fun Kelvin (Celcius: Double): Double{
+    val temperature = Celcius + 273.15
+    return temperature
+}
